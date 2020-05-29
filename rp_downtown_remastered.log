@@ -35624,3 +35624,559 @@ Level flags = 0
 Total triangle count: 3101
 Writing c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
 5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.vmf
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE01, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity env_sun (44.00 0.00 176.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 1024.0 312.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 2048.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 1636.0 388.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 1636.0 52.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 1128.0 452.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 1128.0 228.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 1128.0 196.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 1128.0 176.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day03_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day03_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (158110 bytes)
+WARNING! model "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_frame_001_8.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props/de_nuke/hr_nuke/nuke_metal_bollard/nuke_metal_bollard.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_downtown/door_metal_112.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_downtown/door_trim_56_112_02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/agency/electrical/flourescent01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/agency/electrical/wall_light01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 448 texinfos to 258
+Reduced 29 texdatas to 27 (806 bytes to 759)
+Writing c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+reading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.prt
+LoadPortals: couldn't read c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+PREP OK
+Error! Invalid model version "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_frame_001_8.mdl"
+Error! Invalid model version "models/props/de_nuke/hr_nuke/nuke_metal_bollard/nuke_metal_bollard.mdl"
+Error! Invalid model version "models/props_downtown/door_metal_112.mdl"
+Error! Invalid model version "models/props_downtown/door_trim_56_112_02.mdl"
+Error! Invalid model version "models/agency/electrical/flourescent01.mdl"
+Error! Invalid model version "models/agency/electrical/wall_light01.mdl"
+No vis information, direct lighting only.
+1108 faces
+90629 square feet [13050690.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                481/16384        5772/196608   ( 2.9%) 
+brushsides            3079/65536       24632/524288   ( 4.7%) 
+planes                 888/65536       17760/1310720  ( 1.4%) 
+vertexes              2257/65536       27084/786432   ( 3.4%) 
+nodes                 1098/65536       35136/2097152  ( 1.7%) 
+texinfos               258/12288       18576/884736   ( 2.1%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1108/65536       62048/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              727/65536       40712/3670016  ( 1.1%) 
+leaves                1114/65536       35648/2097152  ( 1.7%) 
+leaffaces             1262/65536        2524/131072   ( 1.9%) 
+leafbrushes            698/65536        1396/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8194/512000      32776/2048000  ( 1.6%) 
+edges                 5099/256000      20396/1024000  ( 2.0%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            118/32768        1180/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1920/65536        3840/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 5/512          1760/180224   ( 1.0%) 
+LDR lightdata         [variable]      507972/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       15244/393216   ( 3.9%) 
+LDR ambient table     1114/65536        4456/262144   ( 1.7%) 
+HDR ambient table     1114/65536        4456/262144   ( 1.7%) 
+LDR leaf ambient      4336/65536      121408/1835008  ( 6.6%) 
+HDR leaf ambient      1114/65536       31192/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2834     ( 0.0%) 
+pakfile               [variable]        8682/0        ( 0.0%) 
+physics               [variable]      158110/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3101
+Writing c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+PREP OK
+Error! Invalid model version "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_frame_001_8.mdl"
+Error! Invalid model version "models/props/de_nuke/hr_nuke/nuke_metal_bollard/nuke_metal_bollard.mdl"
+Error! Invalid model version "models/props_downtown/door_metal_112.mdl"
+Error! Invalid model version "models/props_downtown/door_trim_56_112_02.mdl"
+Error! Invalid model version "models/agency/electrical/flourescent01.mdl"
+Error! Invalid model version "models/agency/electrical/wall_light01.mdl"
+No vis information, direct lighting only.
+1108 faces
+90629 square feet [13050690.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0012 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                481/16384        5772/196608   ( 2.9%) 
+brushsides            3079/65536       24632/524288   ( 4.7%) 
+planes                 888/65536       17760/1310720  ( 1.4%) 
+vertexes              2257/65536       27084/786432   ( 3.4%) 
+nodes                 1098/65536       35136/2097152  ( 1.7%) 
+texinfos               258/12288       18576/884736   ( 2.1%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1108/65536       62048/3670016  ( 1.7%) 
+hdr faces             1108/65536       62048/3670016  ( 1.7%) 
+origfaces              727/65536       40712/3670016  ( 1.1%) 
+leaves                1114/65536       35648/2097152  ( 1.7%) 
+leaffaces             1262/65536        2524/131072   ( 1.9%) 
+leafbrushes            698/65536        1396/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8194/512000      32776/2048000  ( 1.6%) 
+edges                 5099/256000      20396/1024000  ( 2.0%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights         20/8192         1760/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            118/32768        1180/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1920/65536        3840/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 5/512          1760/180224   ( 1.0%) 
+LDR lightdata         [variable]      507972/0        ( 0.0%) 
+HDR lightdata         [variable]      507972/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       15244/393216   ( 3.9%) 
+LDR ambient table     1114/65536        4456/262144   ( 1.7%) 
+HDR ambient table     1114/65536        4456/262144   ( 1.7%) 
+LDR leaf ambient      4336/65536      121408/1835008  ( 6.6%) 
+HDR leaf ambient      4336/65536      121408/1835008  ( 6.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2834     ( 0.0%) 
+pakfile               [variable]        8682/0        ( 0.0%) 
+physics               [variable]      158110/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3101
+Writing c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.vmf
+Can't find surfaceprop marble for material AGENCY/FLOOR/MARBLE01, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-136.00 756.00 136.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1056.0 1024.0 4.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1568.0 1024.0 4.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1036.0 1024.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1548.0 1024.0 68.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 1024.0 -12.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 1024.0 132.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 1024.0 392.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 1536.0 312.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_04*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day03_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day03_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (162846 bytes)
+WARNING! model "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_frame_001_8.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props/de_nuke/hr_nuke/nuke_metal_bollard/nuke_metal_bollard.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_downtown/door_metal_112.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_downtown/door_trim_56_112_02.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/agency/electrical/flourescent01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/agency/electrical/wall_light01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 448 texinfos to 260
+Reduced 29 texdatas to 27 (806 bytes to 759)
+Writing c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+reading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.prt
+LoadPortals: couldn't read c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+PREP OK
+Error! Invalid model version "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_frame_001_8.mdl"
+Error! Invalid model version "models/props/de_nuke/hr_nuke/nuke_metal_bollard/nuke_metal_bollard.mdl"
+Error! Invalid model version "models/props_downtown/door_metal_112.mdl"
+Error! Invalid model version "models/props_downtown/door_trim_56_112_02.mdl"
+Error! Invalid model version "models/agency/electrical/flourescent01.mdl"
+Error! Invalid model version "models/agency/electrical/wall_light01.mdl"
+No vis information, direct lighting only.
+1183 faces
+92641 square feet [13340310.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0011 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                495/16384        5940/196608   ( 3.0%) 
+brushsides            3163/65536       25304/524288   ( 4.8%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              2346/65536       28152/786432   ( 3.6%) 
+nodes                 1137/65536       36384/2097152  ( 1.7%) 
+texinfos               260/12288       18720/884736   ( 2.1%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1183/65536       66248/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              770/65536       43120/3670016  ( 1.2%) 
+leaves                1153/65536       36896/2097152  ( 1.8%) 
+leaffaces             1338/65536        2676/131072   ( 2.0%) 
+leafbrushes            722/65536        1444/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8678/512000      34712/2048000  ( 1.7%) 
+edges                 5389/256000      21556/1024000  ( 2.1%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            123/32768        1230/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2007/65536        4014/131072   ( 3.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 7/512          2464/180224   ( 1.4%) 
+LDR lightdata         [variable]      527820/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       15244/393216   ( 3.9%) 
+LDR ambient table     1153/65536        4612/262144   ( 1.8%) 
+HDR ambient table     1153/65536        4612/262144   ( 1.8%) 
+LDR leaf ambient      4652/65536      130256/1835008  ( 7.1%) 
+HDR leaf ambient      1153/65536       32284/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2834     ( 0.0%) 
+pakfile               [variable]        8682/0        ( 0.0%) 
+physics               [variable]      162846/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3271
+Writing c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+10 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+PREP OK
+Error! Invalid model version "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_frame_001_8.mdl"
+Error! Invalid model version "models/props/de_nuke/hr_nuke/nuke_metal_bollard/nuke_metal_bollard.mdl"
+Error! Invalid model version "models/props_downtown/door_metal_112.mdl"
+Error! Invalid model version "models/props_downtown/door_trim_56_112_02.mdl"
+Error! Invalid model version "models/agency/electrical/flourescent01.mdl"
+Error! Invalid model version "models/agency/electrical/wall_light01.mdl"
+No vis information, direct lighting only.
+1183 faces
+92641 square feet [13340310.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0011 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                495/16384        5940/196608   ( 3.0%) 
+brushsides            3163/65536       25304/524288   ( 4.8%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              2346/65536       28152/786432   ( 3.6%) 
+nodes                 1137/65536       36384/2097152  ( 1.7%) 
+texinfos               260/12288       18720/884736   ( 2.1%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1183/65536       66248/3670016  ( 1.8%) 
+hdr faces             1183/65536       66248/3670016  ( 1.8%) 
+origfaces              770/65536       43120/3670016  ( 1.2%) 
+leaves                1153/65536       36896/2097152  ( 1.8%) 
+leaffaces             1338/65536        2676/131072   ( 2.0%) 
+leafbrushes            722/65536        1444/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8678/512000      34712/2048000  ( 1.7%) 
+edges                 5389/256000      21556/1024000  ( 2.1%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights         20/8192         1760/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            123/32768        1230/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2007/65536        4014/131072   ( 3.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 7/512          2464/180224   ( 1.4%) 
+LDR lightdata         [variable]      527820/0        ( 0.0%) 
+HDR lightdata         [variable]      527820/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       15244/393216   ( 3.9%) 
+LDR ambient table     1153/65536        4612/262144   ( 1.8%) 
+HDR ambient table     1153/65536        4612/262144   ( 1.8%) 
+LDR leaf ambient      4652/65536      130256/1835008  ( 7.1%) 
+HDR leaf ambient      4652/65536      130256/1835008  ( 7.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2834     ( 0.0%) 
+pakfile               [variable]        8682/0        ( 0.0%) 
+physics               [variable]      162846/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3271
+Writing c:\users\liamh\documents\rp_downtown_remastered\rp_downtown_remastered.bsp
+11 seconds elapsed
